@@ -54,7 +54,6 @@ nav {
 
 .logo span {
   color: white;
-  font-weight: bold;
   margin-left: 1rem;
   margin-right: auto;
 }
@@ -67,7 +66,6 @@ li {
   color: white;
   padding: 1rem 0;
   margin-left: 2rem;
-  font-weight: bold;
 }
 
 /* Finish Menu */
@@ -148,7 +146,7 @@ li {
   background-color: cadetblue;
   width: 10rem;
   margin-bottom: 1rem;
-  padding: 0.5rem 0 0.5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
 }
 
 .title span {
@@ -157,6 +155,7 @@ li {
 
 }
 
+/* Finish about section */
 /* Finish main body content */
 /* Start footer */
 
@@ -172,3 +171,29 @@ li {
 }
 
 /* Finish footer */
+
+/* Start Tablet view */
+
+@media only screen and (max-width: 1024px) {
+  .container, .main, .footer {
+    width: 100%;
+  }
+
+  .header {
+    height: 22rem;
+    padding: 0;
+  }
+
+  .text {
+    position: relative;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+
+  .text span {
+    font-size: 1.33rem;
+  }
+}
+
+/* End Tablet view */
