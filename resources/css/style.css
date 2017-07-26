@@ -93,6 +93,7 @@ li {
 /* Finish text block */
 /* Finish header */
 /* Start main body content */
+/* Start services */
 
 .main {
   margin: 3rem auto 5rem auto;
@@ -128,6 +129,33 @@ li {
   width: 5rem;
 }
 
+/* Finish services */
+/* Start about section */
+
+.about {
+  justify-content: center;
+}
+
+.philosophy, .appointments {
+  width: 35%;
+}
+
+.philosophy {
+  margin-right: 5%;
+}
+
+.title {
+  background-color: cadetblue;
+  width: 10rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+.title span {
+  font-weight: bold;
+  color: white;
+
+}
 
 /* Finish main body content */
 /* Start footer */
