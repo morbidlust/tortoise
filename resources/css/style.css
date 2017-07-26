@@ -1,0 +1,76 @@
+* {
+  border: 1px solid blue;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+  line-height: 1.4rem;
+  background-color: azure;
+}
+
+.menu, .main {
+  width: 960px;
+}
+
+.menu span, nav span {
+  color: white;
+  font-weight: bold;
+}
+
+.header {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 31rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  background-color: cadetblue;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  height: 3rem;   /* Get rid of this maybe? */
+  display: flex;
+  align-items: center;
+}
+
+.menu img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.menu span {
+  flex-grow: 1;
+}
+
+nav span {
+  padding-right: 2rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.service {
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+}
