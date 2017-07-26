@@ -19,6 +19,10 @@ body {
   display: flex;
 }
 
+.mobile {
+  display: none;
+}
+
 /* Set header background and size */
 
 .header {
@@ -185,7 +189,6 @@ li {
   }
 
   .text {
-    position: relative;
     margin-top: 5rem;
     margin-right: 2rem;
     padding: 0.75rem 4rem;
@@ -197,3 +200,93 @@ li {
 }
 
 /* End Tablet view */
+/* Start Mobile view */
+
+@media only screen and (max-width: 600px) {
+
+  .logo span {
+    display: none;
+  }
+
+  li {
+    display: none;
+  }
+
+  .mobile{
+    display: inline;
+  }
+
+  .header {
+    height: 17rem;
+  }
+
+  .text {
+    margin: 9rem 0 0 0;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text span {
+    font-size: 1rem;
+  }
+
+  .main {
+    margin: 3.77rem auto;
+  }
+
+  .services {
+    flex-direction: column;
+    margin-bottom: 3.77rem;
+    align-items: center;
+  }
+
+  .service {
+    justify-content: center;
+    height: auto;
+  }
+
+  .service img {
+    margin-bottom: 1rem;
+  }
+
+  .service span {
+    font-size: 0.77rem;
+  }
+
+  .fitting {
+    margin: 1.54rem 0;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .philosophy, .appointments {
+    width: 100%;
+    font-size: 0.77rem
+  }
+
+  .philosophy {
+    margin-bottom: 4rem;
+  }
+
+  .title {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .footer span {
+    display: none;
+  }
+
+  .footer img {
+    padding: 4rem 0;
+  }
+
+}
+/* End Mobile view */
