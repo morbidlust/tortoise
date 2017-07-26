@@ -98,6 +98,35 @@ li {
   margin: 3rem auto 5rem auto;
 }
 
+.services {
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.service {
+  flex-direction: column;
+  height: 8rem;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.fitting {
+  margin: 0 6rem;
+}
+
+.service img {
+  align-self: center;
+}
+
+.exam img {
+  width: 3.5rem;
+}
+
+.fitting img, .delivery img {
+  width: 5rem;
+}
 
 
 /* Finish main body content */
