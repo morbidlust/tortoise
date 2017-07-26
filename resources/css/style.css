@@ -9,10 +9,9 @@ html {
 body {
   font-family: Helvetica;
   line-height: 1.4;
-  background-color: azure;
 }
 
-.container {
+.container, .main, .footer {
   width: 960px;
 }
 
@@ -94,3 +93,25 @@ li {
 /* Finish text block */
 /* Finish header */
 /* Start main body content */
+
+.main {
+  margin: 3rem auto 5rem auto;
+}
+
+
+
+/* Finish main body content */
+/* Start footer */
+
+.footer {
+  margin: auto;
+  align-items: center;
+  background-color: azure;
+}
+
+.footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+/* Finish footer */
