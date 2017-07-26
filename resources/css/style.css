@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: Helvetica;
-  line-height: 1.4rem;
+  line-height: 1.4;
   background-color: azure;
 }
 
@@ -20,6 +20,8 @@ body {
   display: flex;
 }
 
+/* Set header background and size */
+
 .header {
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
@@ -29,6 +31,8 @@ body {
   width: 100%;
   padding-top: 1rem;
 }
+
+/* Start Menu */
 
 .container {
   margin: auto;
@@ -66,3 +70,27 @@ li {
   margin-left: 2rem;
   font-weight: bold;
 }
+
+/* Finish Menu */
+/* Start text block within header */
+
+.look {
+  justify-content: flex-end;
+}
+
+.text {
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+.text span {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* Finish text block */
+/* Finish header */
+/* Start main body content */
